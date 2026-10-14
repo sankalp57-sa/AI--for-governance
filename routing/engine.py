@@ -29,13 +29,28 @@ def normalize_text(text: str) -> str:
     return re.sub(r"\s+", " ", text)
 
 
+
 def rule_candidates(text: str) -> dict[str, list[str]]:
+    """Return rule phrases that match whole words, not word fragments."""
     normalized = normalize_text(text)
     hits: dict[str, list[str]] = {}
+
     for label, phrases in RULES.items():
-        found = [phrase for phrase in phrases if phrase in normalized]
+        found = []
+
+        for phrase in phrases:
+            # Match phrase words with flexible whitespace and word boundaries.
+            phrase_pattern = r"\s+".join(
+                re.escape(word) for word in phrase.split()
+            )
+            pattern = rf"(?<!\w){phrase_pattern}(?!\w)"
+
+            if re.search(pattern, normalized):
+                found.append(phrase)
+
         if found:
             hits[label] = found
+
     return hits
 
 
