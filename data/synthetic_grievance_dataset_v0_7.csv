@@ -1,0 +1,49 @@
+﻿complaint_id,complaint_text,label,language_group,data_origin
+SYN-001,Garbage has not been collected from our street.,sanitation,English,synthetic_not_real
+SYN-002,The waste bins are overflowing near the market.,sanitation,English,synthetic_not_real
+SYN-003,Hamari gali mein kachra jama ho gaya hai.,sanitation,Hinglish,synthetic_not_real
+SYN-004,कूड़ा कई दिनों से नहीं उठाया गया है।,sanitation,Hindi,synthetic_not_real
+SYN-005,Please arrange waste collection in our lane.,sanitation,English,synthetic_not_real
+SYN-006,Safai nahi hui aur kooda pada hai.,sanitation,Hinglish,synthetic_not_real
+SYN-007,The public dustbin has not been emptied.,sanitation,English,synthetic_not_real
+SYN-008,कचरा सड़क किनारे फैल रहा है।,sanitation,Hindi,synthetic_not_real
+SYN-009,No water supply in our street since morning.,water_supply,English,synthetic_not_real
+SYN-010,The tap water has stopped coming.,water_supply,English,synthetic_not_real
+SYN-011,Hamare ghar mein paani nahi aa raha hai.,water_supply,Hinglish,synthetic_not_real
+SYN-012,नल में पानी नहीं आ रहा है।,water_supply,Hindi,synthetic_not_real
+SYN-013,Water pressure is very low in our neighbourhood.,water_supply,English,synthetic_not_real
+SYN-014,Paani ki supply teen din se band hai.,water_supply,Hinglish,synthetic_not_real
+SYN-015,The municipal water pipeline is leaking.,water_supply,English,synthetic_not_real
+SYN-016,हमारे मोहल्ले में पानी की आपूर्ति बंद है।,water_supply,Hindi,synthetic_not_real
+SYN-017,There is a deep pothole in the road.,roads,English,synthetic_not_real
+SYN-018,The road surface is broken and needs repair.,roads,English,synthetic_not_real
+SYN-019,Hamari colony ki sadak toot gayi hai.,roads,Hinglish,synthetic_not_real
+SYN-020,सड़क पर बड़ा गड्ढा है।,roads,Hindi,synthetic_not_real
+SYN-021,Please repair the damaged road near the bus stop.,roads,English,synthetic_not_real
+SYN-022,Sadak par bahut bade gaddhe hain.,roads,Hinglish,synthetic_not_real
+SYN-023,The footpath tiles are broken.,roads,English,synthetic_not_real
+SYN-024,मुख्य सड़क की सतह क्षतिग्रस्त है।,roads,Hindi,synthetic_not_real
+SYN-025,The streetlight outside our building is not working.,street_lighting,English,synthetic_not_real
+SYN-026,"Street light band hai, please repair it.",street_lighting,Hinglish,synthetic_not_real
+SYN-027,Hamari gali raat ko andheri rehti hai.,street_lighting,Hinglish,synthetic_not_real
+SYN-028,सड़क की लाइट बंद है।,street_lighting,Hindi,synthetic_not_real
+SYN-029,Several street lamps do not turn on after sunset.,street_lighting,English,synthetic_not_real
+SYN-030,The lamp post near the park is broken.,street_lighting,English,synthetic_not_real
+SYN-031,स्ट्रीट लाइट काम नहीं कर रही है।,street_lighting,Hindi,synthetic_not_real
+SYN-032,Raat mein street light nahi jalti.,street_lighting,Hinglish,synthetic_not_real
+SYN-033,The drain is overflowing onto the road.,drainage,English,synthetic_not_real
+SYN-034,Nali ka paani sadak par bhar raha hai.,drainage,Hinglish,synthetic_not_real
+SYN-035,Hamare area ki naali block ho gayi hai.,drainage,Hinglish,synthetic_not_real
+SYN-036,नाली जाम है और गंदा पानी बाहर आ रहा है।,drainage,Hindi,synthetic_not_real
+SYN-037,Rainwater is not draining from the street.,drainage,English,synthetic_not_real
+SYN-038,Gutter overflow ho raha hai near the house.,drainage,Hinglish,synthetic_not_real
+SYN-039,नाले में रुकावट के कारण पानी सड़क पर फैल रहा है।,drainage,Hindi,synthetic_not_real
+SYN-040,There is stagnant water because the drain is blocked.,drainage,English,synthetic_not_real
+SYN-041,There is a problem near my house.,needs_review,English,synthetic_not_real
+SYN-042,Please fix this issue in our area.,needs_review,English,synthetic_not_real
+SYN-043,Hamare area mein bahut problem hai.,needs_review,Hinglish,synthetic_not_real
+SYN-044,यहाँ बहुत परेशानी हो रही है।,needs_review,Hindi,synthetic_not_real
+SYN-045,Something is broken near the main road.,needs_review,English,synthetic_not_real
+SYN-046,Paani jaisa kuch road par aa raha hai.,needs_review,Hinglish,synthetic_not_real
+SYN-047,The street is unsafe at night.,needs_review,English,synthetic_not_real
+SYN-048,"कृपया मदद करें, समस्या समझ नहीं आ रही।",needs_review,Hindi,synthetic_not_real
