@@ -56,3 +56,21 @@ def test_blank_or_whitespace_is_not_routed():
     result = route_complaint(get_model(), "   \n  ")
     assert result["suggested_label"] is None
     assert result["review_required"] is True
+
+
+def test_road_rule_does_not_match_inside_broad():
+    assert "roads" not in rule_candidates(
+        "The situation is broad and urgent"
+    )
+
+
+def test_road_rule_still_matches_as_a_whole_word():
+    assert "roads" in rule_candidates(
+        "There is a pothole on the road"
+    )
+
+
+def test_multiword_rule_allows_extra_whitespace():
+    assert "water_supply" in rule_candidates(
+        "There is no   water supply today"
+    )
